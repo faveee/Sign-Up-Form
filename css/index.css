@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(#a35233, #e6ae74, #a35233);
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.navbar {
+    position: absolute;
+    background-color: transparent;
+    top: 27px;
+    right: 1px;
+    height: 19px;
+    width: 20%;
+}
+
+a:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.nav-list {
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.signup-form {
+    width: 505.92px;
+    height: 748.18px;
+    background-color: white;
+    border-radius: 3px;
+}
+
+h3, p {
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+h3 {
+    padding-top: 2em;
+}
+
+form {
+    width: 300px;
+    margin-left: 20px;
+    padding-bottom: 2em;
+}
+
+.form-label {
+display: block;
+margin: 0.5rem 0;
+}
+
+.form-input {
+    padding: 7px;
+    width: 100%;
+    border-radius: 6px;
+    border: none;
+    border: 1px solid black;
+}
+
+.form-btn {
+    width: 320px;
+height: 30px;
+margin-top: 20px;
+background-color: #42281c;
+color: white;
+font-size: 15px;
+}
+
+.connect {
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2em;
+}
+
+.list-icon {
+    width: 30px;
+    height: 18px;
+    border-style: groove;
+    color: black;
+}
+
+.list-icon a {
+    color: black;
+}
+
+.tc {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.tc a {
+    text-decoration: none;
+    color: #03045e;
+}
+
+.image {
+    width: 100%;
+    height: 748.18px;
+    border-radius: 3px;
+    flex-shrink: 0;
+}
+
+.login {
+    text-align: center;
+    margin-top: 20px;;
+}
+
+.login a {
+    text-decoration: none;
+    color: #03045e;
+}
+
+
+/* height: 19px;
+width: 418px;
+left: 930px;
+top: 26px;

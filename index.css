@@ -211,7 +211,3 @@ a:hover {
         display: none;
     }
 }
-
-@media (hover: none) {
-    /* style for mobile */
-}

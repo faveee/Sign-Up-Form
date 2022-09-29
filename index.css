@@ -141,3 +141,70 @@ ul {
     text-decoration: none;
     color: #03045e;
 }
+
+
+@media screen and (max-width: 480px) {
+    .navbar {
+        top: 10px;
+    }
+
+    .nav-list {
+        cursor: none;
+        font-size: 12px;
+        display: flex;
+        padding-top: 5px;
+    }
+
+    h3, p {
+        font-size: 14px;
+    }
+
+    .signup-form {
+width: 250px;
+height: 648px;
+    }
+
+    .form-label {
+        font-size: 12px;
+    }
+
+    .form-input {
+        font-size: 12px;
+        width: 70%;
+    }
+
+    .form-btn {
+        width: 75%;
+        font-size: 13px;
+    }
+
+    .connect {
+        text-align: left;
+        padding-bottom: 10px;
+    }
+
+.nav {
+    display: block;
+}
+
+.icons {
+    display: block;
+    padding-bottom: 8px;
+}
+
+.list-icon {
+    border-style: none;
+    display: flex;
+    padding-top: 5px;
+}
+
+    .tc {
+        text-align: left;
+        font-size: 12px;
+    }
+
+    .image {
+        flex-shrink: 0;
+        height: 648px;
+    }
+}

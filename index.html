@@ -29,15 +29,15 @@
         <p>Let's get you all set up so you can start creating your first onboarding experience</p>
         <form>
             <label class="form-label">First Name</label>
-            <input class="form-input" type="text" placeholder="Enter your First Name" />
+            <input class="form-input" type="text" placeholder="Enter your First Name" required />
             <label class="form-label">Last Name</label>
-            <input class="form-input" type="text" placeholder="Enter your Last Name" />
+            <input class="form-input" type="text" placeholder="Enter your Last Name" required />
             <label class="form-label">Email</label>
-            <input class="form-input" type="email" placeholder="Enter your Email" />
+            <input class="form-input" type="email" placeholder="Enter your Email" required />
             <label class="form-label">Password</label>
-            <input class="form-input" type="password" placeholder="Enter your Password" />
+            <input class="form-input" type="password" pattern="[a-z0-6]{8,}" placeholder="Enter your Password" required />
             <label class="form-label">Confirm Password</label>
-            <input class="form-input" type="text" placeholder="Confirm your Password" />
+            <input class="form-input" type="password" pattern="[a-z0-5]{8,}" placeholder="Confirm your Password" required />
             <input class="form-btn" type="button" value="Submit" />
             <p class="connect">or connect with</p>
             <ul class="icons">

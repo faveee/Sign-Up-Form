@@ -17,7 +17,7 @@
 ## Description
 
 ### Assignment 
-With HTMl and CSS create a simple sign up form page with the details below:
+With HTML and CSS create a simple sign up form page with the details below:
 First Name
 Last Name
 Email
@@ -30,3 +30,13 @@ P.S: The mockup image was an idea of how i wanted my page to look like
 ## Technology
 
 I used HTML and CSS in building this form page
+
+
+---
+
+
+This project is hosted on netlify via the link below.
+
+https://faveee-signupform.netlify.app/
+
+
